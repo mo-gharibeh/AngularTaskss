@@ -20,4 +20,18 @@ export class UrlService {
     return this.http.get<any>(`${this.staticData}/SubServices/GetSubServicesByServicesId/${id}`)
   }
 
+
+  getSigleSubServices(id: any): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/SubServices/GetSubServicesById/${id}`)
+  }
+
+
+  grtSubscription(): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/Subscribtion/GetSubscribtion`)
+  }
+
+  addUserSubscription(data: any): Observable<any> {
+    return this.http.post<any>(`${this.staticData}/UserSubscription`, data)
+  }
+
 }
