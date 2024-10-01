@@ -10,3 +10,25 @@ My name :{{name}} and {{num}}
 
 <!-- Tow way binding  -->
 <input type="number" value="{{num}}" [(ngModel)] ="num" />
+
+
+
+<!-- day4 -->
+
+<!-- *ngIf-->
+<h1 *ngIf="display == true "> Hello, World!</h1>
+
+
+<!-- *ngFor -->
+<div *ngFor="let item of nameArray">
+  <h2>{{item}}</h2>
+</div>
+
+<!-- *ngSwitch -->
+
+<div [ngSwitch]="color">
+  <h5 *ngSwitchCase="'red'">Color is red </h5>
+  <h5 *ngSwitchCase="'blue'">Color is blue </h5>
+  <h5 *ngSwitchCase="'black'">Color is black </h5>
+  <h5 *ngSwitchDefault>Color is default </h5>
+</div>

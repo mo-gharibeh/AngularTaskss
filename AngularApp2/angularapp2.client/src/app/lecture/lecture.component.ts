@@ -28,9 +28,13 @@ export class LectureComponent {
   // on html ==>
 
 
+  // day4
 
+  display = true;
 
+  nameArray = ["ff", "gg", "hh"];
 
+  color = "ed"
 
 
 }

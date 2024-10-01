@@ -34,4 +34,12 @@ export class UrlService {
     return this.http.post<any>(`${this.staticData}/UserSubscription`, data)
   }
 
+
+  addUser(data: any): Observable<any> {
+    return this.http.post(`https://localhost:7215/api/User`, data)
+  }
+
+  loginUser(data: any): Observable<any> {
+    return this.http.post(`https://localhost:7215/api/User/login`, data)
+  }
 }

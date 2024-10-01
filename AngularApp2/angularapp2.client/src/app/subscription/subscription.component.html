@@ -50,9 +50,13 @@
 </style>
 
 <!-- Subscription  -->
-<div class="card" *ngFor="let item of subscriptionArray">
-  <h2>{{item.subscriptionName}}</h2>
-  <p class="price">{{item.subscriptionAmount}}</p>
-  <p class="description">{{item.subscriptionDescription}}</p>
-  <button class="subscribe-button" (click)="addUserSubscription(item.subscriptionId)">Subscribe</button>
+<div class="row pt-5" style="justify-content: space-around">
+
+  <div class="card" *ngFor="let item of subscriptionArray">
+    <h2>{{item.subscriptionName}}</h2>
+    <p class="price">{{item.subscriptionAmount}}</p>
+    <p class="description">{{item.subscriptionDescription}}</p>
+    <button class="subscribe-button" (click)="addUserSubscription(item.subscriptionId)">Subscribe</button>
+  </div>
 </div>
+
