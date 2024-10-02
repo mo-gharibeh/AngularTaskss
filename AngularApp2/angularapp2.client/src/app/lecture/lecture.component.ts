@@ -37,4 +37,28 @@ export class LectureComponent {
   color = "ed"
 
 
+  //day5
+  userObj = {
+
+    name: "mohammad Doe",
+    age: 30,
+    color: "blue"
+  }
+
+  usersArray = [{
+    name: "mohammad Doe",
+    grade: 30,
+    food: "blue"
+  },
+    {
+      name: "Ahmad",
+      grade: 25,
+      food: "red"
+    },
+    {
+      name: "Hadeel",
+      grade: 28,
+      food: "yellow"
+    }]
+
 }

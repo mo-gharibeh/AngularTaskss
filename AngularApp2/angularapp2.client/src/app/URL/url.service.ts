@@ -42,4 +42,9 @@ export class UrlService {
   loginUser(data: any): Observable<any> {
     return this.http.post(`https://localhost:7215/api/User/login`, data)
   }
+
+  addService(data: any): Observable<any> {
+    return this.http.post(`${this.staticData}/Services/AddService`, data)
+
+  }
 }

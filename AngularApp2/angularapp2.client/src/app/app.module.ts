@@ -14,6 +14,8 @@ import { SubscriptionComponent } from './subscription/subscription.component';
 import { SingleSubServiceComponent } from './single-sub-service/single-sub-service.component';
 import { RegistrationUserComponent } from './registration-user/registration-user.component';
 import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './Admin/dashboard/dashboard.component';
+import { AddServiceComponent } from './Admin/add-service/add-service.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { LoginComponent } from './login/login.component';
     SubscriptionComponent,
     SingleSubServiceComponent,
     RegistrationUserComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent,
+    AddServiceComponent
   ],
   imports: [
     FormsModule,
@@ -40,7 +44,13 @@ import { LoginComponent } from './login/login.component';
       { path: "singleSubService/:id", component: SingleSubServiceComponent },
       { path: "register", component: RegistrationUserComponent },
       { path: "register", component: RegistrationUserComponent },
-      { path: "login", component: LoginComponent }
+      { path: "login", component: LoginComponent },
+      {
+        path: "dashboard", component: DashboardComponent, children: [
+          { path: "addService", component: AddServiceComponent },
+          { path: "**", component: DashboardComponent }
+        ]
+      },
 
     ])
   ],
