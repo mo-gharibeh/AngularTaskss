@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Image</th>
+      <th scope="col">Service Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of servicesArray">
+      <td><img src="{{item.serviceImage}}" alt="Service Image" width="100"></td>
+      <td>{{item.serviceName}}</td>
+      <td>{{item.serviceDescription}}</td>
+      <td>
+        <a routerLink="/dashboard/editService/{{item.serviceId}}" class="btn btn-primary">Edit</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

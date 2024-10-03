@@ -58,5 +58,41 @@ namespace AngularApp2.Server.Controllers
             
         }
 
+        [HttpPut("UpdateServicesDetails/{serviceId}")]
+        public IActionResult UpdateServicesDetails([FromForm] AddServiceDto serviceInfo, int serviceId)
+        {
+
+            var service = _db.Services.Find(serviceId);
+
+
+            var folder = Path.Combine(Directory.GetCurrentDirectory(), "UploadsImages");
+
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+
+            var fileImage = Path.Combine(folder, serviceInfo.ServiceImage.FileName);
+
+            if (!System.IO.File.Exists(fileImage))
+            {
+                using (var stream = new FileStream(fileImage, FileMode.Create))
+                {
+
+                    serviceInfo.ServiceImage.CopyToAsync(stream);
+
+                }
+            }
+
+            service.ServiceName = serviceInfo.ServiceName;
+            service.ServiceDescription = serviceInfo.ServiceDescription;
+            service.ServiceImage = serviceInfo.ServiceImage.FileName;
+
+            _db.Services.Update(service);
+            _db.SaveChanges();
+
+            return Ok();
+        }
+
     }
 }
