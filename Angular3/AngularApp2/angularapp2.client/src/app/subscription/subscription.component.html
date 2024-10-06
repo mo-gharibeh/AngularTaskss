@@ -1,0 +1,62 @@
+<p>subscription works!</p>
+
+<style>
+
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+
+    .card h2 {
+      margin: 10px 0;
+    }
+
+  .price {
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+  }
+
+  .description {
+    color: #777;
+    margin: 10px 0;
+  }
+
+  .subscribe-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+    .subscribe-button:hover {
+      background-color: #218838;
+    }
+</style>
+
+<!-- Subscription  -->
+<div class="row pt-5" style="justify-content: space-around">
+
+  <div class="card" *ngFor="let item of subscriptionArray">
+    <h2>{{item.subscriptionName}}</h2>
+    <p class="price">{{item.subscriptionAmount}}</p>
+    <p class="description">{{item.subscriptionDescription}}</p>
+    <button class="subscribe-button" (click)="addUserSubscription(item.subscriptionId)">Subscribe</button>
+  </div>
+</div>
+

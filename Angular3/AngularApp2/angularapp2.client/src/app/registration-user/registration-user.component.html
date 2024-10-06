@@ -1,0 +1,28 @@
+<p>registration-user works!</p>
+
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="text-center">User Registration</h2>
+      <form #registrationForm="ngForm" (ngSubmit)="addNewUser(registrationForm.value)">
+        <div class="mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input type="text" class="form-control" name="UserName" id="username" placeholder="Enter your username" required ngModel>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" name="Email" id="email" placeholder="Enter your email" required ngModel>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" name="PasswordHash" id="password" placeholder="Enter your password" required ngModel>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+
+        <a routerLink="/login" class="btn btn-primary" style="color: white; text-decoration: none; padding: 10px;">Login</a>
+
+      </form>
+    </div>
+  </div>
+</div>

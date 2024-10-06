@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj": {}
+    "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj": {
+    "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj",
         "projectName": "AngularApp2.Server",
-        "projectPath": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj",
+        "projectPath": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj",
         "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularApp2\\AngularApp2.Server\\obj\\",
+        "outputPath": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\AngularApp2.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

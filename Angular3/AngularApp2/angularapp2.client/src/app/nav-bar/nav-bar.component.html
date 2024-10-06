@@ -1,0 +1,29 @@
+<nav style="background-color: #333; padding: 10px;">
+  <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; text-align: center;">
+    <li style="display: inline; margin-right: 15px;">
+      <a href="" style="color: white; text-decoration: none; padding: 10px;">Home</a>
+    </li>
+    <li style="display: inline; margin-right: 15px;">
+      <a routerLink="/services" style="color: white; text-decoration: none; padding: 10px;">Services</a>
+    </li>
+    <li style="display: inline; margin-right: 15px;">
+      <a routerLink="/category" style="color: white; text-decoration: none; padding: 10px;">Category</a>
+    </li>
+    <li style="display: inline; margin-right: 15px;">
+      <a routerLink="/lecture" style="color: white; text-decoration: none; padding: 10px;">Lecture</a>
+    </li>
+    <li style="display: inline; margin-right: 15px;">
+      <a routerLink="/subscription" style="color: white; text-decoration: none; padding: 10px;">Subscription</a>
+    </li>
+    <li style="display: inline; margin-right: 15px;"  *ngIf="!email.includes('.com')">
+      <a routerLink="/register" class="btn btn-primary"  style="color: white; text-decoration: none; padding: 10px;">Register Now</a>
+    </li>
+    <li style="display: inline;  margin-right: 15px;"  *ngIf="email.includes('.com')">
+      <a routerLink="/register" class="btn btn-primary"  style="color: white; text-decoration: none; padding: 10px;">Logout</a>
+    </li>
+    <li style="display: inline; margin-right: 15px;">
+      <a routerLink="/dashboard" class="btn btn-primary" style="color: white; text-decoration: none; padding: 10px;">Dashboard</a>
+    </li>
+  </ul>
+
+</nav>

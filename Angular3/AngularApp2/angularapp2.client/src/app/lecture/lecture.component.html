@@ -1,0 +1,68 @@
+<p>lecture works!</p>
+
+My name :{{name}} and {{num}}
+
+<img [src]="urlImg" width="250px" height="250px" />
+
+
+<button (click)="onchange()">Change</button>
+{{name}}
+
+<!-- Tow way binding  -->
+<input type="number" value="{{num}}" [(ngModel)]="num" />
+
+
+
+<!-- day4 -->
+<!-- *ngIf-->
+<h1 *ngIf="display == true "> Hello, World!</h1>
+
+
+<!-- *ngFor -->
+<div *ngFor="let item of nameArray">
+  <h2>{{item}}</h2>
+</div>
+
+<!-- *ngSwitch -->
+
+<div [ngSwitch]="color">
+  <h5 *ngSwitchCase="'red'">Color is red </h5>
+  <h5 *ngSwitchCase="'blue'">Color is blue </h5>
+  <h5 *ngSwitchCase="'black'">Color is black </h5>
+  <h5 *ngSwitchDefault>Color is default </h5>
+</div>
+
+
+<!-- day5 -->
+
+<h5 [ngStyle]="{'background-color' : userObj.color}">{{userObj.name}}</h5>
+
+
+<hr />
+<h2 [ngStyle]="{'color': 'red', 'background-color' : userObj.color} ">Mohammad Algharibeh</h2>
+<h2 [ngStyle]='{color: "blue"}'>Mohammad Algharibeh</h2>
+
+<div *ngFor="let item of usersArray" [ngClass]="{'greenColor' : item.grade > 25 , 'redColor' : item.grade <= 25}">
+
+  <p>{{item.name}}</p>
+  <p>{{item.grade}}</p>
+  <p>{{item.food}}</p>
+
+</div>
+
+
+<!-- day7 -->
+<!-- Pips -->
+<h1>{{20 | percent}}</h1>
+<h1>{{20 | currency:'JOD'}}</h1>
+<h1>{{"ahmad" | uppercase}}</h1>
+<h1>{{"ahmad" | lowercase}}</h1>
+<h1>{{20 | date:'dd/MM/yyyy'}}</h1>
+<p>{{ 'arrayPipe' | slice:2:5 }}</p>
+
+
+<!-- behaviour Subject -->
+
+
+
+<h1>Structural Directive</h1>
