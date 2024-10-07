@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kmosJFyDHQs=",
+  "dgSpecHash": "psvtqHnjGbE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj",
+  "projectFilePath": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\Angular3\\AngularApp2\\AngularApp2.Server\\AngularApp2.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orange\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Orange\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

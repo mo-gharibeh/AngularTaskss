@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|c:\\users\\orange\\desktop\\angulertasks\\angulartaskss\\angularapp2\\angularapp2.client\\src\\app\\admin\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|solutionrelative:angularapp2.client\\src\\app\\admin\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|c:\\users\\orange\\desktop\\angulertasks\\angulartaskss\\angularapp2\\angularapp2.client\\src\\app\\admin\\edit-service\\edit-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|solutionrelative:angularapp2.client\\src\\app\\admin\\edit-service\\edit-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|solutionrelative:angularapp2.client\\src\\app\\admin\\show-services\\show-services.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|c:\\users\\orange\\desktop\\angulertasks\\angulartaskss\\angularapp2\\angularapp2.client\\src\\app\\admin\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|solutionrelative:angularapp2.client\\src\\app\\admin\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|c:\\users\\orange\\desktop\\angulertasks\\angulartaskss\\angularapp2\\angularapp2.client\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{2E1B8DAF-5FCB-4A27-AF7B-FAA8625BDD50}|angularapp2.client\\angularapp2.client.esproj|solutionrelative:angularapp2.client\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -54,11 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "edit-service.component.html",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.html",
               "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.html",
@@ -71,19 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "edit-service.component.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
-              "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
-              "RelativeToolTip": "angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-03T13:15:31.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "url.service.ts",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\URL\\url.service.ts",
               "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\URL\\url.service.ts",
@@ -95,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ServicesController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\AngularApp2.Server\\Controllers\\ServicesController.cs",
               "RelativeDocumentMoniker": "AngularApp2.Server\\Controllers\\ServicesController.cs",
@@ -107,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "show-services.component.html",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\show-services\\show-services.component.html",
               "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\Admin\\show-services\\show-services.component.html",
@@ -119,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "app.module.ts",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\app.module.ts",
               "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\app.module.ts",
@@ -131,7 +123,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "dashboard.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
+              "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
+              "RelativeToolTip": "angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
+              "ViewState": "AQIAAFEAAAAAAAAAAADwv10AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-03T12:13:37.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "edit-service.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "RelativeToolTip": "angularapp2.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-03T13:15:31.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "show-services.component.ts",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\show-services\\show-services.component.ts",
               "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\Admin\\show-services\\show-services.component.ts",
@@ -140,18 +157,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-10-03T12:22:55.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dashboard.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
-              "RelativeDocumentMoniker": "angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngulerTasks\\AngularTaskss\\AngularApp2\\angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
-              "RelativeToolTip": "angularapp2.client\\src\\app\\Admin\\dashboard\\dashboard.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-03T12:13:37.852Z"
             },
             {
               "$type": "Document",

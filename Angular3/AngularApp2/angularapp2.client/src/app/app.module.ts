@@ -18,6 +18,8 @@ import { DashboardComponent } from './Admin/dashboard/dashboard.component';
 import { AddServiceComponent } from './Admin/add-service/add-service.component';
 import { ShowServicesComponent } from './Admin/show-services/show-services.component';
 import { EditServiceComponent } from './Admin/edit-service/edit-service.component';
+import { ProductsComponent } from './products/products.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { EditServiceComponent } from './Admin/edit-service/edit-service.componen
     DashboardComponent,
     AddServiceComponent,
     ShowServicesComponent,
-    EditServiceComponent
+    EditServiceComponent,
+    ProductsComponent,
+    CartComponent
   ],
   imports: [
     FormsModule,
@@ -49,6 +53,8 @@ import { EditServiceComponent } from './Admin/edit-service/edit-service.componen
       { path: "register", component: RegistrationUserComponent },
       { path: "register", component: RegistrationUserComponent },
       { path: "login", component: LoginComponent },
+      { path: "products", component: ProductsComponent },
+      { path: "cart", component: CartComponent },
       {
         path: "dashboard", component: DashboardComponent, children: [
           { path: "addService", component: AddServiceComponent },

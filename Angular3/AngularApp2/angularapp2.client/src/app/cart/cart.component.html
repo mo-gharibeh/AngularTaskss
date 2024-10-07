@@ -1,0 +1,18 @@
+///////////
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">productId</th>
+      <th scope="col">quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of cartArray">
+      <th scope="row">1</th>
+      <td>{{item.productId}}</td>
+      <td><button (click)="decrementQuantity(item.productId)">-</button> <input type="number" value="{{item.quantity}}" />   <button (click)="incrementQuantity(item.productId)">+</button> </td>
+    </tr>
+
+  </tbody>
+</table>

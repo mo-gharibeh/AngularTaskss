@@ -57,11 +57,51 @@ export class UrlService {
 
   }
   editService(id: any, data: any): Observable<any> {
-    return this.http.put(`${this.staticData }/Services/UpdateServicesDetails/${id}`, data)
+    return this.http.put(`${this.staticData}/Services/UpdateServicesDetails/${id}`, data)
  
+  }
+
+  getAllProduct(): Observable<any> {
+    return this.http.get(`${this.staticData}/ProductC/GetProducts`) 
   }
 
 
 
+  incQuantity(id: any) {
 
+    var product = this.cartItem.find((c: any) => c.productId == id)
+    if (product) {
+      product.quantity++;
+      this.cartItemSubject.next(this.cartItem);
+    }
+  }
+  decQuantity(id: any) {
+
+
+    var product = this.cartItem.find((c: any) => c.productId == id)
+    if (product) {
+      if (product.quantity > 1) {
+        product.quantity--;
+      } else {
+        this.cartItem = this.cartItem.filter((c: any) => c.productId != id);
+      }
+      this.cartItemSubject.next(this.cartItem);
+    }
+}
+
+
+  cartItem: any = [];
+  cartItemSubject: BehaviorSubject<any> = new BehaviorSubject<any>(this.cartItem);
+  cartItemOber = this.cartItemSubject.asObservable();/// ناخذ منه الداتا
+  addToCart(product: any) {
+
+    var record = this.cartItem.find((c: any) => c.productId == product.productId)
+    if (record) {
+      alert("Product already added")
+      //record.quantity++;
+    } else {
+      this.cartItem.push(product);
+      this.cartItemSubject.next(this.cartItem);
+    }
+  }
 }
